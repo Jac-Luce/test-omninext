@@ -1,0 +1,63 @@
+.bgHeader {
+    background-image: url('../../images/mongolfiere.png');
+    background-size: cover;
+    height: 1024px;
+}
+
+.divHeader {
+    width: 800px;
+    height: 556px;
+    display: flex;
+    position: absolute;
+    top: 253px;
+    left: 112px;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    gap: 32px;
+}
+
+.bodyHeader {
+    width: 664px;
+    height: 325px;
+    gap: 64px;
+}
+
+.divToast {
+    top: 421px;
+    left: 72px;
+    position: absolute;
+    border-radius: 15px;
+    border: 1px;
+    opacity: 90%;
+}
+
+.sizeToast {
+    width: 664px;
+    height: 71px;
+}
+
+/*p per mobile che sostituisce il toast*/ 
+.pMobile {
+    display: none;
+}
+
+/*Nel mobile si nasconde il toast e appare il p*/
+@media (max-width: 768px) {
+    .divHeader {
+        left: 0;
+    }
+    .sizeToast {
+        display: none;
+    }
+
+    .divToast {
+        top: 650px;
+        
+    }
+    .pMobile {
+        display: block;
+        padding-right: 80px;
+    }
+}

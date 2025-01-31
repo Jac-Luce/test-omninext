@@ -1,0 +1,56 @@
+/*Style della promo card*/
+.promoCard {
+    position: absolute;
+    left: 950px;
+    top: 200px;
+    width: 365px;
+    height: 560px;
+    border-radius: 20px;
+    background-color: #E6ECF9;
+}
+
+.tooltipInfo .tooltip-inner {
+    background-color: #E6ECF9;
+    color: #112340;
+    border: 1px solid #112340;
+}
+
+.divided {
+    height:2px;
+    background-color: #112340;
+}
+
+.btnAttivaPiano {
+    position: absolute;
+    top: 415px;
+    right: 90px;
+    background-color: white;
+}
+
+.btnAttivaPiano:hover {
+    background-color: #e2e1f4;
+}
+
+.borderBtnGo {
+    width: 167px;
+    height: 38px;
+    border: 2px solid #091125;
+    opacity: 0.5;
+    border-radius: 10px;
+    position: absolute;
+    right: 95px;
+    top: 410px;
+    pointer-events: none;
+}
+
+/*Creazione del bordo intorno alla card*/
+.borderCard {
+    position: absolute;
+    border: 1px solid #112340;
+    width: 365px;
+    height: 560px;
+    border-radius: 20px;
+    top: -8px;
+    right: 10px;
+    pointer-events: none;
+}

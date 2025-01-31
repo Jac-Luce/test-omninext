@@ -1,0 +1,113 @@
+.navbarSize {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 33px;
+    padding-right: 33px;
+    justify-content: space-between;
+}
+
+.navbar_sizelogo {
+    height: 43px;
+    width: 173px;
+}
+
+/*Rimuovo freccia dropdown*/
+.dropdown-toggle::after {
+    display: none;
+}
+/*Menu nascosto quando non c'è passaggio del mouse*/
+.dropdown-menu {
+    display: none;
+}
+/*Menu Dropdown visibile al passaggio del mouse*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu{
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+}
+
+/*Sottolineo item al passaggio del mouse*/
+.dropdown-item:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.buttonClik {
+    background-color: #abe8dc;
+    position: absolute;
+    top: 25px;
+    right:35px;
+}
+
+.buttonClik:hover {
+    background-color: #34bfa3;
+}
+
+.borderBtn {
+    width: 208px;
+    height: 38px;
+    border: 2px solid #091125;
+    opacity: 0.5;
+    border-radius: 10px;
+    position: absolute;
+    right: 41px;
+    top: 20px;
+    pointer-events: none;
+}
+
+/*Btn visualizzato in modalità mobile*/
+.mobileLoginBtn {
+    display: none;
+    color: #299882;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+}
+
+.mobileLoginBtn:hover {
+    color: #207463;
+}
+
+/* Aggiunta freccia per dropdown mobile */
+@media (max-width: 768px) {
+    .dropdown-toggle::after {
+        display: inline-block;
+    }
+}  
+
+/*Media query per spostare il btn al di sotto degli elementi della navbar quando lo schermo diventa mobile*/
+@media (max-width : 768px) {
+    .mobileLoginBtn{
+        display: block;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .buttonClik {
+        position: relative;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .btn {
+        position: relative;
+        top: 0px;
+        right: 10px;
+    }
+
+    .borderBtn {
+        position: absolute;
+        top: 282px;
+        right: 426px;
+        pointer-events: none;
+    }
+}
