@@ -1,0 +1,29 @@
+.guruImage {
+    width: 169px;
+    height: 224px;
+}
+
+.pianoImage {
+    width: 174;
+    height: 204px;
+}
+
+.serviziImage {
+    width: 240px;
+    height: 196px;
+}
+
+.piattafImage {
+    width: 180px;
+    height: 200px;
+}
+
+.cardSize {
+    width: 223px;
+}
+
+@media (max-width: 768px) {
+    .container.marginMobile {
+        margin-top: 400px !important;
+    }
+}

@@ -60,6 +60,23 @@
         position: absolute;
         left: 100px;
         top: 1050px;
+        width: 360px;
+        height: 410px;
+    }
+
+    .borderCard {
+        width: 360px;
+        height: 410px;
+    }
+
+    .btnAttivaPiano {
+        top: 220px;
+        right: 90px;
+    }
+
+    .borderBtnGo {
+        right: 95px;
+        top: 215px;
     }
 }
 

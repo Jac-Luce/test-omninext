@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card, Button, OverlayTrigger, Tooltip, ListGroup, Container, Dropdown } from "react-bootstrap";
+import { Card, Button, OverlayTrigger, Tooltip, ListGroup, Container } from "react-bootstrap";
 import { CiCircleInfo } from "react-icons/ci";
 import { FaCheckCircle } from "react-icons/fa";
 import './pianoGo.css';
@@ -16,7 +16,7 @@ export default function PianoGoCard() {
 
     return (
         <Container className="promoCard">
-            <Card style={{backgroundColor:'#E6ECF9'}}  className="border-0">
+            <Card style={{backgroundColor:'#E6ECF9', border: '0px'}}>
                 <Card.Body>
                     <Card.Title className="text-center">Piano GO!</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted text-center">a partire da</Card.Subtitle>
@@ -56,15 +56,21 @@ export default function PianoGoCard() {
                             }
                         </>
                     </Card.Text>
+                    <>
                     <Button variant="rounded btnAttivaPiano px-4">Attiva Piano GO!</Button>
                     <div className="borderBtnGo"></div>
                     <Card.Text className="mt-5 pt-2 text-center">
                         <p>Vuoi maggiori informazioni sul piano?</p>
                         <Card.Link href="#">Scopri di più</Card.Link>
                     </Card.Text>
+                    </>
                 </Card.Body>
             </Card>
             <div className="borderCard"></div>
+            <div className="text-center mt-5 pt-5 d-none d-md-block">
+                <p>Cerchi un piano su misura per la tua azienda?</p>
+                <a href="#">Scopri il piano PRO</a>
+            </div>
         </Container>
     )
 }
