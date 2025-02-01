@@ -54,3 +54,15 @@
     right: 10px;
     pointer-events: none;
 }
+
+@media (max-width: 768px) {
+    .promoCard {
+        position: absolute;
+        left: 100px;
+        top: 1050px;
+    }
+}
+
+.btnMobileCard {
+    margin-left: 140px;
+}
