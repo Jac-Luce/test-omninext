@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button , Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import logo_mysarma_navbar from '../../images/logo_mysarma_navbar.png';
+import logo from '../../images/Logo.png';
 import './navbar.css';
 import { GrLogin } from "react-icons/gr";
 import { useState, useEffect } from 'react';
@@ -44,7 +44,7 @@ const MyNavbar = () => {
         <Navbar expand="lg" className='navbarSize'>
             <Container fluid>
                 <Navbar.Brand as={Link} to='/' className='me-5'>
-                    <img className='navbar_sizelogo' alt='logo navbar' src={logo_mysarma_navbar} />
+                    <img className='navbar_sizelogo' alt='logo navbar' src={logo} />
                 </Navbar.Brand>
                 <Button variant='link' className='mobileLoginBtn'><GrLogin/>  Accedi</Button>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

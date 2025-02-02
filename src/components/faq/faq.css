@@ -1,0 +1,12 @@
+.faqSize {
+    padding-left: 190px;
+    padding-right: 190px;
+    
+}
+
+@media (max-width: 768px) {
+    .faqSize {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+}

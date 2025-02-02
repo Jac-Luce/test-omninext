@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Button, OverlayTrigger, Tooltip, ListGroup, Container } from "react-bootstrap";
 import { CiCircleInfo } from "react-icons/ci";
@@ -7,7 +7,7 @@ import './cardGo.css';
 
 export default function CardGo() {
     return(
-        <Container className="promoCardGo">
+        <Container className="promoCardGo mt-5">
             <Card style={{backgroundColor:'#E6ECF9', border: '0px'}}>
                 <Card.Body>
                     <Card.Title className="text-center">Piano GO!</Card.Title>

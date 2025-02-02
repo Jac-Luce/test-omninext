@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Button, OverlayTrigger, Tooltip, ListGroup, Container } from "react-bootstrap";
 import { CiCircleInfo } from "react-icons/ci";
@@ -7,8 +7,8 @@ import './cardPro.css';
 
 export default function CardPro() {
     return(
-        <Container className="promoCardPro">
-            <Card style={{backgroundColor:'#E6ECF9', border: '0px'}}>
+        <Container className="promoCardPro mt-5">
+            <Card style={{backgroundColor:'#E2E1F4', border: '0px'}}>
                 <Card.Body>
                     <Card.Title className="text-center">Piano PRO</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted text-center">a partire da</Card.Subtitle>
@@ -16,7 +16,7 @@ export default function CardPro() {
                         <p className="text-center">€22,80 + iva</p>
                         <p className="text-center">all'anno / per utente 
                             <span>
-                                <OverlayTrigger overlay={<Tooltip className="infoTooltip" id="tooltip-disabled">Prezzo calcolato per un'azienda di 150 dipendenti, 250€ buoni welfare</Tooltip>}>
+                                <OverlayTrigger overlay={<Tooltip className="infoTooltip" id="tooltip-disabled">Prezzo calcolato per un'azienda di 150 dipendenti, 350€ credito welfare e redazione del regolamento welfare</Tooltip>}>
                                     <span className="d-inline-block">
                                         <Button className="border-0 pb-2" variant="transparent" style={{pointerEvents: 'none', color: '#112340' }} ><CiCircleInfo /></Button>
                                     </span>

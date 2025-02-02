@@ -8,6 +8,10 @@ import MyCarousel from './carousel/Carousel.jsx';
 import MyWelfareApp from './cellApp/cellApp.jsx';
 import WhatIsWelfare from './whatIsWelfare/WhatIsWelfare.jsx';
 import BodyBenessere from './whatIsWelfare/BodyBenessere.jsx';
+import AttivaPiani from './attivaPiani/AttivaPiani.jsx';
+import CardOmninext from './omninext/CardOmninext.jsx';
+import Faq from './faq/Faq.jsx';
+import NewsLetter from './footer/Newsletter.jsx';
 
 export default function Homepage() {
     return (
@@ -19,6 +23,10 @@ export default function Homepage() {
             <MyWelfareApp />
             <WhatIsWelfare />
             <BodyBenessere />
+            <AttivaPiani />
+            <CardOmninext />
+            <Faq />
+            <NewsLetter />
         </Container>
     )
 }

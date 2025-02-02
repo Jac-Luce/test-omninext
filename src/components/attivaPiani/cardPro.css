@@ -1,6 +1,9 @@
 .promoCardPro {
+    position: relative;
     border-radius: 20px;
     background-color: #E2E1F4;
+    width: 365px;
+    height: 800px;
 }
 
 .infoTooltip .tooltip-inner {
@@ -16,21 +19,23 @@
 
 .btnPro {
     background-color: white;
+    margin-top: 15px;
+    margin-left: 65px;
 }
 
 .btnPro:hover {
-    background-color: #e2e1f4;
+    background-color: #E6ECF9;
 }
 
 .btnProBorder {
-    width: 167px;
+    width: 180px;
     height: 38px;
     border: 2px solid #091125;
     opacity: 0.5;
     border-radius: 10px;
     position: absolute;
-    right: 95px;
-    top: 410px;
+    right: 85px;
+    top: 593px;
     pointer-events: none;
 }
 
@@ -39,9 +44,9 @@
     position: absolute;
     border: 1px solid #112340;
     width: 365px;
-    height: 560px;
+    height: 800px;
     border-radius: 20px;
-    top: -8px;
-    right: 10px;
+    top: -5px;
+    right: 5px;
     pointer-events: none;
 }

@@ -7,7 +7,7 @@ import { BsArrowRight } from "react-icons/bs";
 export default function MyWelfareApp() {
     //Stato che controlla se siamo su desktop o mobile
     const [isMobile, setIsMobile] = useState(false);
-        //Aggiorniamo lo stato quando la finestra si ridimensiona
+    //Aggiorniamo lo stato quando la finestra si ridimensiona
     useEffect (() => {
         const ifIsMobile = () => setIsMobile(window.innerWidth <= 768);
     
@@ -26,7 +26,7 @@ export default function MyWelfareApp() {
                 <Col xs={12}>
                     <Container>
                         <h1>App</h1>
-                        <img src={imageApp}/>
+                        <img src={imageApp} alt="immagine app"/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla enim eget morbi sed amet habitant. At egestas nisl sed luctus scelerisque convallis. Tempus, ut elementum risus, tellus commodo tellus.</p>
                         <a href="#"><BsArrowRight /> COMING SOON</a>
                     </Container>

@@ -6,10 +6,21 @@ import CardPro from "./CardPro.jsx";
 
 export default function AttivaPiani() {
     return(
-        <Container className="text-center my-5 py-5">
-            <h1>Attivo il tuo piano Go oppure Pro</h1>
-            <p>Scegli se attivare subito il Piano Go oppure richiedere un preventivo per il Piano Pro al nostro consulente</p>
-            <Container></Container>
+        <Container className="my-5 py-5">
+            <div className="mb-5 text-center ">
+                <h1>Attivo il tuo piano Go oppure Pro</h1>
+                <p>Scegli se attivare subito il Piano Go oppure richiedere un preventivo per il Piano Pro al nostro consulente</p>
+            </div>
+            <Container>
+                <Row>
+                    <Col md={6}>
+                        <CardGo />
+                    </Col>
+                    <Col md={6}>
+                        <CardPro />
+                    </Col>
+                </Row>
+            </Container>
         </Container>
     )
 }

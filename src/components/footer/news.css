@@ -1,0 +1,12 @@
+.btnInvia {
+    background-color: white;
+    color: #091125;
+    width: 80px;
+    border-radius: 10px;
+    
+}
+
+.btnInvia:hover {
+    background-color: #e2e1f4;
+    color: #091125;
+}

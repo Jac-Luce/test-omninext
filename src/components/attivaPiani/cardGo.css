@@ -1,6 +1,9 @@
 .promoCardGo {
+    position: relative;
     border-radius: 20px;
     background-color: #E6ECF9;
+    width: 365px;
+    height: 650px;
 }
 
 .infoTooltip .tooltip-inner {
@@ -16,6 +19,8 @@
 
 .btnGo {
     background-color: white;
+    margin-top: 15px;
+    margin-left: 65px;
 }
 
 .btnGo:hover {
@@ -29,8 +34,8 @@
     opacity: 0.5;
     border-radius: 10px;
     position: absolute;
-    right: 95px;
-    top: 410px;
+    right: 97px;
+    top: 433px;
     pointer-events: none;
 }
 
@@ -38,9 +43,9 @@
     position: absolute;
     border: 1px solid #112340;
     width: 365px;
-    height: 560px;
+    height: 650px;
     border-radius: 20px;
-    top: -8px;
-    right: 10px;
+    top: -5px;
+    right: 5px;
     pointer-events: none;
 }
