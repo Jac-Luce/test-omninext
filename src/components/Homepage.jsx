@@ -12,6 +12,7 @@ import AttivaPiani from './attivaPiani/AttivaPiani.jsx';
 import CardOmninext from './omninext/CardOmninext.jsx';
 import Faq from './faq/Faq.jsx';
 import NewsLetter from './footer/Newsletter.jsx';
+import MyFooter from './footer/Footer.jsx';
 
 export default function Homepage() {
     return (
@@ -27,6 +28,7 @@ export default function Homepage() {
             <CardOmninext />
             <Faq />
             <NewsLetter />
+            <MyFooter />
         </Container>
     )
 }

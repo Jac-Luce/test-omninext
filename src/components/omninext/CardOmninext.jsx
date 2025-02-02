@@ -28,7 +28,7 @@ export default function CardOmninext() {
                         <Container className="text-center mb-4">
                             <img src={icona} alt="icona omninext" className="my-4"/>
                             <div className="text-start">
-                            <h2 className="mb-4">Facciamo parte di un grande gruppo!</h2>
+                            <h2 style={{color: '#2B50B0'}} className="mb-4">Facciamo parte di un grande gruppo!</h2>
                             <a href="#"  ><BsArrowRight /> SCOPRI DI PIU'</a>
                             </div>
                         </Container>
@@ -43,9 +43,9 @@ export default function CardOmninext() {
                     </Col>
                     <Col md={8}>
                         <div style={{margin: '80px'}}>
-                            <h2>Facciamo parte di un grande gruppo!</h2>
-                            <p>Il Gruppo Omninext è costituito da aziende altamente specializzate interconnesse tra loro, che permettono di ricoprire diversi settori industriali per necessità di Business personalizzate.</p>
-                            <a href="#"><BsArrowRight /> SCOPRI DI PIU'</a>
+                            <h2 style={{color: '#2B50B0'}} className="mb-4">Facciamo parte di un grande gruppo!</h2>
+                            <p className="mb-5" style={{color: '#7D8797'}}>Il Gruppo Omninext è costituito da aziende altamente specializzate interconnesse tra loro, che permettono di ricoprire diversi settori industriali per necessità di Business personalizzate.</p>
+                            <a href="#" style={{color: '#2B50B0', textDecoration: 'none'}}><BsArrowRight />  SCOPRI DI PIU'</a>
                         </div>
                     </Col>
                 </Row>

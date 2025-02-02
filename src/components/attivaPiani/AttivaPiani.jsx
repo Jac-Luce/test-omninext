@@ -8,8 +8,8 @@ export default function AttivaPiani() {
     return(
         <Container className="my-5 py-5">
             <div className="mb-5 text-center ">
-                <h1>Attivo il tuo piano Go oppure Pro</h1>
-                <p>Scegli se attivare subito il Piano Go oppure richiedere un preventivo per il Piano Pro al nostro consulente</p>
+                <h1 style={{color: '#112340'}}>Attivo il tuo piano Go oppure Pro</h1>
+                <p style={{color: '#7D8797'}} className="mt-3">Scegli se attivare subito il Piano Go oppure richiedere un preventivo per il Piano Pro al nostro consulente</p>
             </div>
             <Container>
                 <Row>

@@ -10,11 +10,11 @@ export default function CardGo() {
         <Container className="promoCardGo mt-5">
             <Card style={{backgroundColor:'#E6ECF9', border: '0px'}}>
                 <Card.Body>
-                    <Card.Title className="text-center">Piano GO!</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted text-center">a partire da</Card.Subtitle>
+                    <Card.Title className="text-center" style={{color: '#2B50B0'}}>Piano GO!</Card.Title>
+                    <Card.Subtitle className="mb-2 text-center" style={{color: '#2B50B0'}}>a partire da</Card.Subtitle>
                     <Card.Text>
-                        <p className="text-center">€12,50 + iva</p>
-                        <p className="text-center">all'anno / per utente 
+                        <p className="text-center">€12,50 <span style={{color: '#2B50B0'}}>+ iva</span> </p>
+                        <p className="text-center" style={{color: '#2B50B0'}}>all'anno / per utente 
                             <span>
                                 <OverlayTrigger overlay={<Tooltip className="infoTooltip" id="tooltip-disabled">Prezzo calcolato per un'azienda di 150 dipendenti, 250€ buoni welfare</Tooltip>}>
                                     <span className="d-inline-block">
@@ -37,8 +37,8 @@ export default function CardGo() {
                         <Button variant="rounded btnGo px-4">Attiva Piano GO!</Button>
                         <div className="btnGoBorder"></div>
                         <Card.Text className="mt-5 pt-2 text-center">
-                            <p>Vuoi maggiori informazioni sul piano?</p>
-                            <Card.Link href="#">Scopri di più</Card.Link>
+                            <p className="text-muted">Vuoi maggiori informazioni sul piano?</p>
+                            <Card.Link href="#" style={{textDecoration: 'none'}}>Scopri di più</Card.Link>
                         </Card.Text>
                     </>
                 </Card.Body>

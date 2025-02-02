@@ -25,10 +25,10 @@ export default function MyWelfareApp() {
             <Row>
                 <Col xs={12}>
                     <Container>
-                        <h1>App</h1>
+                        <h1 style={{color: '#1A316B'}}>App</h1>
                         <img src={imageApp} alt="immagine app"/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla enim eget morbi sed amet habitant. At egestas nisl sed luctus scelerisque convallis. Tempus, ut elementum risus, tellus commodo tellus.</p>
-                        <a href="#"><BsArrowRight /> COMING SOON</a>
+                        <a href="#" style={{textDecoration: 'none'}}><BsArrowRight /> COMING SOON</a>
                     </Container>
                 </Col>
             </Row>
@@ -36,9 +36,9 @@ export default function MyWelfareApp() {
         ) : (
             <Row>
                 <Col md={8}>
-                    <h1>App</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla enim eget morbi sed amet habitant. At egestas nisl sed luctus scelerisque convallis. Tempus, ut elementum risus, tellus commodo tellus.</p>
-                    <a href="#"><BsArrowRight /> COMING SOON</a>
+                    <h1 style={{color: '#1A316B'}} className="mb-5">App</h1>
+                    <p className="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla enim eget morbi sed amet habitant. At egestas nisl sed luctus scelerisque convallis. Tempus, ut elementum risus, tellus commodo tellus.</p>
+                    <a href="#" style={{textDecoration: 'none'}}><BsArrowRight /> COMING SOON</a>
                 </Col>
                 <Col md={4}>
                     <img src={imageApp}/>

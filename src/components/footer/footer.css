@@ -1,0 +1,52 @@
+.divFooter {
+    background-color: #121B30;
+    color: #FFFFFF;
+}
+
+.bandieraLine {
+    height: 3px;
+    display: flex;
+}
+
+.bandieraLine div {
+    height: 100%;
+}
+
+.lineGreen {
+    background-color: #39AB11;
+    flex: 1;
+}
+
+.lineWhite {
+    background-color: white;
+    flex: 1;
+}
+
+.lineRed {
+    background-color: #F20404;
+    flex: 1;
+}
+
+.verticalLine {
+    width: 2px;
+    height: 150px;
+    background-color: #898989;
+}
+
+.orizontalLine {
+    height: 2px;
+    background-color: #898989;
+}
+
+.linkColor {
+    color: #898989;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .logoMobile {
+        width: 250px;
+        margin-left: 80px;
+        margin-bottom: 30px;
+    }
+}

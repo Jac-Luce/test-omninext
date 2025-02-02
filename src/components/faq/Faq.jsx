@@ -47,7 +47,7 @@ export default function Faq() {
 
     return(
         <Container fluid className="text-center faqSize">
-            <h3 className="my-5">Domande frequenti</h3>
+            <h3 className="my-5" style={{color: '#2B50B0'}}>Domande frequenti</h3>
             {faqText.map((info, index) => (
                 <div key={index} className="text-start faqSize">
                 <p>{info.title} <Button variant="transparent" onClick={() => toggleFaq(index)}>{visibleFaqs[index] ? <IoIosArrowUp /> : <IoIosArrowDown />}</Button></p>
