@@ -1,0 +1,47 @@
+.promoCardPro {
+    border-radius: 20px;
+    background-color: #E2E1F4;
+}
+
+.infoTooltip .tooltip-inner {
+    background-color: #E2E1F4;
+    color: #112340;
+    border: 1px solid #112340;
+}
+
+.divided {
+    height:2px;
+    background-color: #112340;
+}
+
+.btnPro {
+    background-color: white;
+}
+
+.btnPro:hover {
+    background-color: #e2e1f4;
+}
+
+.btnProBorder {
+    width: 167px;
+    height: 38px;
+    border: 2px solid #091125;
+    opacity: 0.5;
+    border-radius: 10px;
+    position: absolute;
+    right: 95px;
+    top: 410px;
+    pointer-events: none;
+}
+
+
+.borderCardPro {
+    position: absolute;
+    border: 1px solid #112340;
+    width: 365px;
+    height: 560px;
+    border-radius: 20px;
+    top: -8px;
+    right: 10px;
+    pointer-events: none;
+}

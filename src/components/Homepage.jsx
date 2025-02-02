@@ -5,6 +5,9 @@ import { Container } from 'react-bootstrap';
 import MyHeader from './header/Header.jsx';
 import MyBody from './body/Body.jsx';
 import MyCarousel from './carousel/Carousel.jsx';
+import MyWelfareApp from './cellApp/cellApp.jsx';
+import WhatIsWelfare from './whatIsWelfare/WhatIsWelfare.jsx';
+import BodyBenessere from './whatIsWelfare/BodyBenessere.jsx';
 
 export default function Homepage() {
     return (
@@ -13,6 +16,9 @@ export default function Homepage() {
             <MyHeader />
             <MyBody />
             <MyCarousel />
+            <MyWelfareApp />
+            <WhatIsWelfare />
+            <BodyBenessere />
         </Container>
     )
 }
